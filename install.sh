@@ -5,6 +5,6 @@ cd auto-ssh
 mkdir -p /usr/local/auto-ssh
 cp r r-exec r-push r-shell /usr/local/auto-ssh
 ln -sfv /usr/local/auto-ssh/r /usr/local/bin/r
-rm -- "$0"
+rm -rf "$0"
 echo -e "Done.."
 r -h
